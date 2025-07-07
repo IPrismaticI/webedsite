@@ -1,7 +1,8 @@
 body{
-  padding: 25px;
-  font-family: garamond, times new roman, arial;
+	padding: 25px;
+	font-family: garamond, times new roman, arial;
 }
 .title {
 	color: #5C6AC4;
+  	font-family: garamond, times new roman, arial;
 }
