@@ -7,28 +7,67 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <aside class="sidebar">
+        <ul class="sidebar_links">
+            <div class="sidebar_header">
+                <img src="images/face.png" alt="TODO logo, using my face for now"">
+            </div>
+            <a href="#">Homepage</a><br>
+            <a href="#">Recent Posts</a><br>
+            <a href="#">Archive</a><br>
+            <a href="#">Portfolio</a><br><br>
+            <a href="#">Linkedin</a>
+            <br><br><br><p id="currentTime"></p>
+            <script src="script.js"></script>
+        </ul>
+    </aside>
+
     <!-- Title -->
     <h1 class="title">Deane B.'s Portfolio</h1>
     <!-- Introduction -->
-    <img src="face.png" alt="Image of Deane B."width="300" height="300">
-    <p>My name is Deane Barberio. I am a 3D model designer, 2D graphic designer, and a programmer. Currently, I am studying to improve these skills for career work.
+    <img src="images/face.png" alt="Image of Deane B."width="150" height="150">
+    <p class="sample_page">My name is Deane Barberio. I am a 3D model designer, 2D graphic designer, and a programmer. Currently, I am studying to improve these skills for career work.
 I've worked with 3DS Max, Maya, Photoshop, JavaScript, and Python, alongside a small collection of specialized LUAs. I enjoy writing and video games, though I have tried several hand-worked crafts when the mood meets me.</p>
     <!-- Latest -->
     <br><h2 class="title">Latest</h2>
-    <ul>
-      <li>New Composite Miniature: Urparp the Restored<br><img src="urparp.png" width="400" height="400" alt="A grey, digitally rendered bust depicting a shrivelled head. Its teeth are grossly distended from its head, puncturing through the lips, jaw, and eyes. The eyes are swollen shut. The temple of the head is elongated, supporting several crowns in a parody of a regal bishop's hat."><br></li>
-      <li>The Footsoldiers Squirm to War<br><img src="thralls.png" width="400" height="400" alt="Four miniatures depicting elongated humanoid forms in soldier uniforms, each torn from bloated sponge-like growths on the arms and shoulders. Each figure's head is missing, with a lamprey-like worm poking from the hole. All of them carry muskets of some form. The leftmost miniature is in a marching stance, holding its gun by its stock and leaning it against its shoulder, its worm-head held high. The next holds its longgun with its forearm against its chest, as it struggles to pull its finger from the barrel of a flintlock pistol. The next is leaning down to look into the barrel of its gun, presumably to see as to why it isnt firing. The last holds its gun by the middle of the barrel with its right hand, as its left is severed by the elbow and overgrown with sponge-growths, half-melding with a pistol fastened to its left stump."><br></li>
-      <li>Otherwhere<br><img src="otherwhere.png" width="400" height="400" alt="A screenshot of a text-based game. To the left is a viewport with a top-down aproximation of a set of corridors using latin and mathematical symbols. At the center, an '@', the player, is present. All of the symbols are hued blue, seperated from the outside by an outline of white. Above the box is the label 'Ocean', and below is the label 'Location: 79, 191, 0'. To the left, several buttons and outputs are present. From the top down, they are: A button reading 'Debug Local Map'. An output log saying 'You move East. Turn Ended.', followed by a description of the objects below the player, that being a grass tile and a battered reliquary item. Next are three buttons adjacent to each other, the first reading '[S]elf', the second '[E]phemera', and the last '[I]nv'. Lastly, a text output reads '-- Inventory --', followed by 'Items: 0/16'."><br></li>
-      <li>Slugpups!<br><img src="slup.png" width="400" height="400" alt="A photograph of three small critters made of felt, standing in a semicircle on a grey foam platform. Each are stark white, with the only interuption being a pair of large black eyes and a small nose. Two small, round ears poke from the top of its head, and two handless arms stick out from its torso. Its 'legs' are small stumps that stick out from the ovalish body, quickly followed by a squat, rounded tail. Each figure is less than two inches in size. The middle one has a metal ring set into its head, trailing a thin black loop of string."><br></li>
-      <li>Student Innovation Project: WeightWise Food Bowl<br><img src="SIP.png" width="400" height="400" alt="A logo reading 'WeightWise Food Bowl', accented with a purple-blue colored gradient. Behind the text is the geometric shape utilized in the base of the bowl the logo refers to."><br></li>
-    </ul>
+        <ul style="list-style-type:none;">
+            <li class="sample_page">
+                <img src="images/urparp.png" alt="A grey, digitally rendered bust depicting a shrivelled head. Its teeth are grossly distended from its head, puncturing through the lips, jaw, and eyes. The eyes are swollen shut. The temple of the head is elongated, supporting several crowns in a parody of a regal bishop's hat.">
+                <a href="#" class="sample_page_a">New Composite Miniature: Urparp the Restored</a>
+                <p class="sample_page_p">TODO Text</p>
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            </li>
+            <li class="sample_page">
+                <img src="images/thralls.png" alt="Four miniatures depicting elongated humanoid forms in soldier uniforms, each torn from bloated sponge-like growths on the arms and shoulders. Each figure's head is missing, with a lamprey-like worm poking from the hole. All of them carry muskets of some form. The leftmost miniature is in a marching stance, holding its gun by its stock and leaning it against its shoulder, its worm-head held high. The next holds its longgun with its forearm against its chest, as it struggles to pull its finger from the barrel of a flintlock pistol. The next is leaning down to look into the barrel of its gun, presumably to see as to why it isnt firing. The last holds its gun by the middle of the barrel with its right hand, as its left is severed by the elbow and overgrown with sponge-growths, half-melding with a pistol fastened to its left stump.">
+                <a href="#" class="sample_page_a">The Footsoldiers Squirm to War</a>
+                <p class="sample_page_p">TODO Text</p>
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            </li>
+            <li class="sample_page">
+                <img src="images/otherwhere.png" alt="A screenshot of a text-based game. To the left is a viewport with a top-down aproximation of a set of corridors using latin and mathematical symbols. At the center, an '@', the player, is present. All of the symbols are hued blue, seperated from the outside by an outline of white. Above the box is the label 'Ocean', and below is the label 'Location: 79, 191, 0'. To the left, several buttons and outputs are present. From the top down, they are: A button reading 'Debug Local Map'. An output log saying 'You move East. Turn Ended.', followed by a description of the objects below the player, that being a grass tile and a battered reliquary item. Next are three buttons adjacent to each other, the first reading '[S]elf', the second '[E]phemera', and the last '[I]nv'. Lastly, a text output reads '-- Inventory --', followed by 'Items: 0/16'.">
+                <a href="#" class="sample_page_a">Otherwhere</a>
+                <p class="sample_page_p">TODO Text</p>
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            </li>
+            <li class="sample_page">
+                <img src="images/slup.png" alt="A photograph of three small critters made of felt, standing in a semicircle on a grey foam platform. Each are stark white, with the only interuption being a pair of large black eyes and a small nose. Two small, round ears poke from the top of its head, and two handless arms stick out from its torso. Its 'legs' are small stumps that stick out from the ovalish body, quickly followed by a squat, rounded tail. Each figure is less than two inches in size. The middle one has a metal ring set into its head, trailing a thin black loop of string.">
+                <a href="#" class="sample_page_a">Slugpups!</a>
+                <p class="sample_page_p">TODO Text</p>
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            </li>
+            <li class="sample_page">
+                <img src="images/SIP.png" alt="A logo reading 'WeightWise Food Bowl', accented with a purple-blue colored gradient. Behind the text is the geometric shape utilized in the base of the bowl the logo refers to.">
+                <a href="#" class="sample_page_a">Student Innovation Project: WeightWise Food Bowl</a>
+                <p class="sample_page_p">TODO Text</p>
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            </li>
+            <li class="sample_page" style="background-color: #dad6ed "></li>
+        </ul>
     <!-- Links -->
-    <br><h2 class="title">Where to Find Me</h2>
+    <h2 class="title">Where to Find Me</h2>
     <ul>
-      <li><a href="https://www.linkedin.com/in/deane-barberio-173460287/">LinkedIn</a></li>
+      <li class="sample_page" style="width:10%;"><a href="https://www.linkedin.com/in/deane-barberio-173460287/">LinkedIn</a></li>
     </ul>
     <!-- Time -->
-    <br><br><br><p id="currentTime"></p>
-    <script src="script.js"></script>
   </body>
 </html>
